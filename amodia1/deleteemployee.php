@@ -21,7 +21,7 @@
 	</style>
 </head>
 <body>
-	<h1>Are you sure you want to delete this user?</h1>
+	<h1>Are you sure you want to delete this employee?</h1>
 	<?php $getemployeeID = getemployeeID($pdo, $_GET['employeeID']); ?>
 	<form action="core/handleForms.php?employeeID=<?php echo $_GET['employeeID']; ?>" method="POST">
 
