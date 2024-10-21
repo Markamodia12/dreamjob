@@ -21,7 +21,7 @@
 	</style>
 </head>
 <body>
-	<h3>Welcome to the Gym Membership System. Input your details here to register</h3>
+	<h3>Welcome employee. Input your details here to register</h3>
 	<form action="core/handleForms.php" method="POST">
 		<p><label for="firstName">First Name</label> <input type="text" name="firstName"></p>
 		<p><label for="lastName">Last Name</label> <input type="text" name="lastName"></p>
