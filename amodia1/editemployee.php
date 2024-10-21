@@ -9,7 +9,7 @@
 	<title>Document</title>
 </head>
 <body>
-	<h2 style="color: red">The Member ID is <?php echo $_GET['employeeID']; ?></h2>
+	<h2 style="color: red">The employee ID is <?php echo $_GET['employeeID']; ?></h2>
 
 	<?php $getemployeeID = getemployeeID($pdo, $_GET['employeeID']); ?>
 	<form action="core/handleForms.php?employeeID=<?php echo $getemployeeID['employeeID']; ?>" method="POST">
